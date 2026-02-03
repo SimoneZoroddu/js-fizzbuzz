@@ -11,6 +11,7 @@ for (let program = 1; program <= 100; program++) {
         console.log('Fizz');
     } else if (program % 5 == 0) {
         console.log('Buzz');
+    } else if (program % 3 === 0 + program % 5 == 0) {
+        console.log('FizzBuzz');
     }
-    
 }
