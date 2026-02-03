@@ -7,5 +7,10 @@ console.log('salve');
 for (let program = 1; program <= 100; program++) {
     //controlliamo che funzioni correttamente il for
     console.log(program);
+    if (program % 3 === 0) {
+        console.log('Fizz');
+    } else if (program % 5 == 0) {
+        console.log('Buzz');
+    }
     
 }
